@@ -1,1 +1,1 @@
-# My-own-projects
+ A portfolio of professional front-end projects created using HTML, CSS, JavaScript, and soon React — demonstrating my ability to design and develop responsive, user-friendly websites. 
