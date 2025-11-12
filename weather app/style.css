@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+color: #fff;
+}
+body{
+    background-color: black;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(to bottom ,rgb(52, 160, 93),rgb(70, 99, 163));
+    color: gray;
+    margin: 100px auto 0;
+    padding: 45px 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search button img{
+    width: 20px;
+    background-color:black;
+}
+ 
+.search button{
+padding: 9px;
+padding-right: 30px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+width: 40px;
+height: 40px;
+background-color: white;
+}
+.search button:hover{
+    background-color: rgb(204, 198, 198);
+}
+.search button:active{
+    background-color:rgb(194, 191, 191);
+}
+.search input{
+    padding: 15px;
+    padding-right: 90px;
+  
+    border-radius:50px ;
+    border: none;
+    /*  flex: 1; */
+    font-size: 15px;
+    color: black;
+} 
+
+.weathericon{
+    width: 200px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    
+}
+.temp{
+    font-size:70px;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+
+.city{
+    font-size: 30px;
+    margin-top: 12px;
+    font-weight: 100;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.colom{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+font-size: large;
+font-weight: 100;
+  }
+
+.colom img{
+    width: 40px;
+    margin: 5px;
+}
+
+.colom p{
+    font-weight:bold;
+}
+
+.speed img{
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size:x-large;
+}
+
+.weather{
+    display: none;
+}
+
+
+
+.error{
+    text-align: left;
+    font-size: large;
+    padding-top: 12px;
+    display: none;
+}
