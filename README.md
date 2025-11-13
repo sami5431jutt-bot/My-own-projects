@@ -1,1 +1,1 @@
- A portfolio of professional front-end projects created using HTML, CSS, JavaScript, and soon React — demonstrating my ability to design and develop responsive, user-friendly websites. 
+ A portfolio of professional front-end projects created using HTML, CSS, JavaScript, and soon React — demonstrating my ability to design and develop responsive, user-friendly websites. Built with help from online resources and improved with custom features.
